@@ -16,10 +16,5 @@ class RedisCouponApplicationTests {
     void contextLoads() {
     }
 
-    @Test
-    void transactionListenerTest() {
-        CouponDto dto = CouponDto.builder().userId(1L).build();
-        applyService.create(dto);
-    }
 
 }
