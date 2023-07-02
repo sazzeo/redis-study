@@ -2,3 +2,4 @@ rootProject.name = 'redis-study'
 
 include 'redis-first'
 include 'redis-coupon'
+include 'redis-coupon-consumer'

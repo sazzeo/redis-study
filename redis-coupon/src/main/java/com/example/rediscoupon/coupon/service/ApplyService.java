@@ -26,7 +26,6 @@ public class ApplyService {
         if (count > 1000) {
             return;
         }
-//        couponRepository.save(Coupon.builder().userId(userId).build());
         couponCreateProducer.create(userId);
     }
 
