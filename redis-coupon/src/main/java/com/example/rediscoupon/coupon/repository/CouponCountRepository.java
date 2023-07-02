@@ -16,5 +16,4 @@ public class CouponCountRepository {
                 .opsForValue()
                 .increment("coupon_count");
     }
-
 }
