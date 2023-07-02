@@ -30,7 +30,6 @@ class ApplyServiceTest {
     @BeforeEach
     void setUp() {
         couponRepository.deleteAll();
-        redisTemplate.getConnectionFactory().getConnection().flushAll();
     }
 
     @Test

@@ -1,6 +1,5 @@
 package com.example.rediscoupon;
 
-import com.example.rediscoupon.coupon.payload.CouponDto;
 import com.example.rediscoupon.coupon.service.ApplyService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

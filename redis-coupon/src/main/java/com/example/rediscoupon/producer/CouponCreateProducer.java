@@ -12,7 +12,7 @@ public class CouponCreateProducer {
         this.kafkaTemplate = kafkaTemplate;
     }
 
-    public void crate(Long userId) {
+    public void create(Long userId) {
         kafkaTemplate.send("coupon_create", userId);
     }
 }
